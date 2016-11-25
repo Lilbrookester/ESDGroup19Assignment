@@ -31,7 +31,7 @@
                         </tr>
                         <tr>
                             <td>Date of Birth</td>
-                            <td><input type="text" name="dob" value="" /></td>
+                            <td><input type="text" name="DOB" value="" /></td>
                         </tr>
                         <tr>
                             <td><input type="submit" value="Submit" /></td>

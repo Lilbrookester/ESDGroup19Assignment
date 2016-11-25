@@ -16,7 +16,7 @@
             "root", "dbpass");
     Statement st = con.createStatement();
     //ResultSet rs;
-    int i = st.executeUpdate("insert into Members(name, address, dob, regdate) values ('" + name + "','" + address + "','" + DOB + "', CURDATE())");
+    int i = st.executeUpdate("insert into Members(name, address, DOB, regdate) values ('" + name + "','" + address + "','" + DOB + "', CURDATE())");
     if (i > 0) {
         //session.setAttribute("userid", user);
         response.sendRedirect("docs/welcome.jsp");

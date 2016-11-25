@@ -2,6 +2,17 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/header.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/footer.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/login.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/index.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/logout.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/main.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/reg.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/registration.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/welcome.jsp</file>
+            <file>file:/Users/AdamBrooke/Documents/Git/ESDGroup19Assignment/ESD/web/WEB-INF/docs/user.jsp</file>
+        </group>
     </open-files>
 </project-private>
