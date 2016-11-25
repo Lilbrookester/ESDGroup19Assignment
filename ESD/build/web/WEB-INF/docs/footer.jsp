@@ -6,5 +6,5 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
- <a href="index.jsp"> Back to Main </a>
+ <a href="<%=request.getContextPath()%>/Front"> Back to Main </a>
 

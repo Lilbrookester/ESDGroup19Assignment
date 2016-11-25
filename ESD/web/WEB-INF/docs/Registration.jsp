@@ -21,9 +21,9 @@
     int i = st.executeUpdate("insert into members(first_name, last_name, email, uname, pass, regdate) values ('" + fname + "','" + lname + "','" + email + "','" + user + "','" + pwd + "', CURDATE())");
     if (i > 0) {
         //session.setAttribute("userid", user);
-        response.sendRedirect("/docs/Welcome.jsp");
+        response.sendRedirect("docs/welcome.jsp");
        // out.print("Registration Successfull!"+"<a href='index.jsp'>Go to Login</a>");
     } else {
-        response.sendRedirect("/docs/User.jsp");
+        response.sendRedirect("docs/user.jsp");
     }
 %>

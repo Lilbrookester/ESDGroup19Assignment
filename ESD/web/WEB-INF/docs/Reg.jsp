@@ -12,7 +12,7 @@
         <title>Registration</title>
     </head>
     <body>
-        <form method="post" action="/docs/Registration.jsp">
+        <form method="post" action="registration.jsp">
             <center>
             <table border="1" width="30%" cellpadding="5">
                 <thead>
@@ -46,7 +46,7 @@
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Already registered!! <a href="/docs/User.jsp">Login Here</a></td>
+                        <td colspan="2">Already registered!! <a href="<%=request.getContextPath()%>/Front">Login Here</a></td>
                     </tr>
                 </tbody>
             </table>

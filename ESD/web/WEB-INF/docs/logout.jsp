@@ -7,5 +7,5 @@
 <%
 session.setAttribute("userid", null);
 session.invalidate();
-response.sendRedirect("/docs/User.jsp");
+response.sendRedirect("/docs/user.jsp");
 %>

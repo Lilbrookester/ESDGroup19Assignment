@@ -28,7 +28,7 @@ public class Front extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String id; // process Request URL
-        String page = "/WEB-INF/docs/Main.jsp"; // what page to forward to ...
+        String page = "/WEB-INF/docs/main.jsp"; // what page to forward to ...
 
         HttpSession session = request.getSession();
         Jdbc dbBean = new Jdbc();
@@ -45,16 +45,19 @@ public class Front extends HttpServlet {
 
         switch (id) {
             case "/Front":
-                include = "User.jsp";
+                include = "user.jsp";
                 break;
-            //case "/docs/User":
-            //include = "User.jsp";
-            //break;
-            //case "/docs/ShowPet":
-            //include = "ShowPet.jsp";
-            //break;
+            case "/docs/reg":
+            include = "reg.jsp";
+            break;
+            case "/docs/user":
+            include = ".jsp";
+                break;
+            case "/docs/registration":
+            include = "registration.jsp";
+            break;
             default:
-                include = "Error.jsp";
+                include = "error.jsp";
         }
         request.setAttribute("doco", include);
         //END of Julias Code

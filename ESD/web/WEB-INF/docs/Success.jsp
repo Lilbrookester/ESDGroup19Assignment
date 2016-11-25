@@ -7,11 +7,11 @@
     if ((session.getAttribute("userid") == null) || (session.getAttribute("userid") == "")) {
 %>
 You are not logged in<br/>
-<a href="/docs/User.jsp">Please Login</a>
+<a href="/docs/user">Please Login</a>
 <%} else {
 %>
 Welcome <%=session.getAttribute("userid")%>
-<a href='/docs/Logout.jsp'>Log out</a>
+<a href='/docs/logout'>Log out</a>
 <jsp:include page="footer.jsp"/>
 <%
     }

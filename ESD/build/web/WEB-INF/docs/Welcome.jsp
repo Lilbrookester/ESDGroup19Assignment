@@ -5,5 +5,5 @@
 --%>
 
 Registration is Successful.
-Please Login Here <a href='/docs/User.jsp'>Go to Login</a>
+Please Login Here <a href='/user'>Go to Login</a>
 <jsp:include page="footer.jsp"/>

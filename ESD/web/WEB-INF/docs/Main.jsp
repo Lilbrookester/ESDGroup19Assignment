@@ -20,7 +20,7 @@
                 </td>
                 <td width="500" height="100" bgcolor="#DB8B28" 
                     valign="top" halign="center">
-                    <jsp:include page="Header.jsp" flush="true"/>
+                    <jsp:include page="header.jsp" flush="true"/>
                 </td>
             </tr>
 

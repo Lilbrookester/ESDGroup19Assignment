@@ -12,7 +12,7 @@
         <title>User Page</title>
     </head>
     <body>
-       <form method="post" action="/docs/Login.jsp">
+       <form method="post" action="docs/login">
             <center>
             <table border="1" width="30%" cellpadding="3">
                 <thead>
@@ -34,7 +34,7 @@
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Yet Not Registered!! <a href="/docs/reg.jsp">Register Here</a></td>
+                        <td colspan="2">Yet Not Registered!! <a href="docs/reg">Register Here</a></td>
                     </tr>
                 </tbody>
             </table>
